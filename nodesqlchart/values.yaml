@@ -1,7 +1,7 @@
 # API section.
 replicaCount: 1
 image:
-  tag: latest
+  tag: main
 # MySQL section.
 mysql:
   mysqlDatabase: mysqlnode_db

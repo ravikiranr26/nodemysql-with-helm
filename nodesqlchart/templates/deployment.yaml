@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: mysqlnode-api
-        image: rknmit/fullstackapp:{{ .Values.image.tag }}
+        image: rknmit/nodemysql-backend:{{ .Values.image.tag }}
         ports:
         - containerPort: 3000
           name: http
