@@ -1,0 +1,9 @@
+dependencies:
+- name: mysql
+  repository: https://charts.helm.sh/stable
+  version: 1.6.9
+- name: nginx-ingress
+  repository: https://charts.helm.sh/stable
+  version: 1.41.2
+digest: sha256:641b9493cfba6bc972ed0f88e6be793ee14fb3abd81607613129fac05cf5e71b
+generated: "2022-03-14T15:21:16.375763+01:00"
