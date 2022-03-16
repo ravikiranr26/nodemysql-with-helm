@@ -56,7 +56,6 @@ else
   # Password prompt from user
   echo -n "Please enter the password for the database ? : "
   read DATABASEPASS
-  echo $DATABASEPASS
     if checkIsServerUp; then
         createDBBackUp()
         sleep 60
